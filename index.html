@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="icon" type="x-icon" href="z.jpg">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Instagram</title>
+</head>
+<style>
+   *{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0%;
+    margin: auto;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+nav{
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    border-bottom: 1px rgb(124, 120, 120) solid;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    overflow: hidden;
+    z-index: 10;
+}
+.search-bar::placeholder{
+    color:  rgb(162, 167, 172);
+}
+
+.icons{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+._2divs{
+    min-height: 100%;
+    width: 80%;
+    position: absolute;
+    top: 5%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+._1stdiv{
+    width: 45%;
+    min-height: 80vh;
+    border-radius: 10px;
+}
+._2nddiv{
+    width: 35%;
+    min-height: 30vh;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+
+
+
+</style>
+<body>
+
+    <div class="container">
+        <nav>
+            <div class="elements"><img src="main-qimg.png" alt="" style="height: 40px; width: 100px; cursor: pointer;"></div>
+            <div class="search" style="display: flex; align-items: center;justify-content: center;background-color: rgba(223, 220, 220, 0.767); padding: 10px;width: 20%; border-radius: 10px;">
+                <i class="fa fa-search" aria-hidden="true" style="color: rgb(162, 167, 172); cursor: pointer;"></i>
+                <input type="text" placeholder="Search" style=" background-color: transparent; outline: none; border: none; " class="search-bar">
+            </div>
+            <div class="icons" >
+                <i class="fa fa-home" aria-hidden="true" style="cursor: pointer;"></i>
+                <i class="fa fa-comment" aria-hidden="true" style="cursor: pointer;"></i>
+                <i class="fa fa-plus-square" aria-hidden="true" style="cursor: pointer;"></i>
+                <i class="fa fa-exclamation" aria-hidden="true" style="cursor: pointer;"></i>
+                <i class="fa fa-heart-o" aria-hidden="true" style="cursor: pointer;"></i>
+                <i class="fa fa-user" aria-hidden="true" style="cursor: pointer;"></i>
+            </div>
+           
+        </nav>
+        <div class="_2divs">
+            <div class="_1stdiv" >
+                <div class="statuses" style="width: 100%; margin-bottom: 30px; display: flex; align-items: center; justify-content: center;
+                height: 120px; border-radius: 10px; border: 1px rgb(124, 120, 120) solid; overflow: hidden; margin-top: 70px;">
+                <div class="pedding">
+                    <img src="moniques.jpg" style="border-radius: 50%; cursor: pointer; border: 3px solid crimson;" width="60px" height="60px" alt="">
+                    <h4>moniques</h4>
+                </div> 
+                <div class="pedding">
+                    <img src="R.jpg" style="border-radius: 50%; cursor: pointer;border: 3px solid crimson;" width="60px" height="60px" alt="">
+                    <h4>ryan</h4>
+                </div> 
+                <div class="pedding">
+                    <img src="montel.jpg" style="border-radius: 50%; cursor: pointer;border: 3px solid crimson;" width="60px" height="60px" alt="">
+                    <h4>montel</h4>
+                </div> 
+                <div class="pedding">
+                    <img src="thurnders.jpg" style="border-radius: 50%; cursor: pointer;border: 3px solid crimson;" width="60px" height="60px" alt="">
+                    <h4>thunders</h4>
+                </div> 
+               
+                </div>
+
+
+                <div class="statuses" style="width: 100%;
+                min-height: 50vh; border-radius: 10px; border: 1px rgb(124, 120, 120) solid; margin-bottom: 40px;">
+                <div class="littleinfo" style="width: 100%; height: 50px;margin-top:10px;display: flex; align-items:center ; justify-content: center;">
+                    <div class="pedding" style="margin-left: 20px;">
+                        <img src="moniques.jpg" style="border-radius: 50%; cursor: pointer; border: 3px solid crimson; " width="50px" height="50px" alt="">
+                    </div> 
+                    <div class="titles" style="margin-left: -35px;">
+                        <h3>moniques</h3>
+                        <p>Kordhell . Murder i n m y Mind</p>
+                    </div>
+                    <div class="dots" style="cursor: pointer;"><h2><b>...</b></h2></div>
+                </div>
+                <img src="moniques.jpg" style="width: 100%; padding-bottom: 10px; margin-top: 10px;" alt="">
+                <p> <b>Lorem ipsum </b> dolor sit amet consectetur adipisicing elit. Minus ipsa magnam, tempora similique hic esse nihil
+                     totam corporis fugit voluptatum eum vero ratione consequuntur, 
+                    cum mollitia laborum maxime error nemo.</p>
+                </div>
+
+                <div class="statuses" style="width: 100%;
+                min-height: 50vh; border-radius: 10px; border: 1px rgb(124, 120, 120) solid; margin-bottom: 40px;">
+                <div class="littleinfo" style="width: 100%; height: 50px;margin-top:10px;display: flex; align-items:center ; justify-content: center;">
+                    <div class="pedding" style="margin-left: 20px;">
+                        <img src="moniques.jpg" style="border: 3px solid crimson; border-radius: 50%; cursor: pointer;" width="50px" height="50px" alt="">
+                    </div> 
+                    <div class="titles" style="margin-left: -35px;">
+                        <h3>Montel</h3>
+                        <p>Kordhell . Murder i n m y Mind</p>
+                    </div>
+                    <div class="dots" style="cursor: pointer;"><h2><b>...</b></h2></div>
+                </div>
+                <img src="montel.jpg" style="width: 100%; padding-bottom: 10px; margin-top: 10px;" alt="">
+                <p> <b>Lorem ipsum </b> dolor sit amet consectetur adipisicing elit. Minus ipsa magnam, tempora similique hic esse nihil
+                     totam corporis fugit voluptatum eum vero ratione consequuntur, 
+                    cum mollitia laborum maxime error nemo.</p>
+                </div>
+
+                <div class="statuses" style="width: 100%;
+                min-height: 50vh; border-radius: 10px; border: 1px rgb(124, 120, 120) solid; margin-bottom: 40px;">
+                <div class="littleinfo" style="width: 100%; height: 50px;margin-top:10px;display: flex; align-items:center ; justify-content: center;">
+                    <div class="pedding" style="margin-left: 20px;">
+                        <img src="moniques.jpg" style="border: 3px solid crimson; border-radius: 50%; cursor: pointer;" width="50px" height="50px" alt="">
+                    </div> 
+                    <div class="titles" style="margin-left: -35px;">
+                        <h3>Ryan</h3>
+                        <p>Nature in mind with cool pics</p>
+                    </div>
+                    <div class="dots" style="cursor: pointer;"><h2><b>...</b></h2></div>
+                </div>
+                <img src="R.jpg" style="width: 100%; padding-bottom: 10px; margin-top: 10px;" alt="">
+                <p> <b>Lorem ipsum </b> dolor sit amet consectetur adipisicing elit. Minus ipsa magnam, tempora similique hic esse nihil
+                     totam corporis fugit voluptatum eum vero ratione consequuntur, 
+                    cum mollitia laborum maxime error nemo.</p>
+                </div>
+
+                <div class="statuses" style="width: 100%;
+                min-height: 50vh; border-radius: 10px; border: 1px rgb(124, 120, 120) solid; margin-bottom: 40px;">
+                <div class="littleinfo" style="width: 100%; height: 50px;margin-top:10px;display: flex; align-items:center ; justify-content: center;">
+                    <div class="pedding" style="margin-left: 20px;">
+                        <img src="moniques.jpg" style=" border: 3px solid crimson; border-radius: 50%; cursor: pointer;" width="50px" height="50px" alt="">
+                    </div> 
+                    <div class="titles" style="margin-left: -35px;">
+                        <h3>thurnders</h3>
+                        <p>Love of nature is the love of .........</p>
+                    </div>
+                    <div class="dots" style="cursor: pointer;"><h2><b>...</b></h2></div>
+                </div>
+                <img src="thurnders.jpg" style="width: 100%; padding-bottom: 10px; margin-top: 10px;" alt="">
+                <p> <b>Lorem ipsum </b> dolor sit amet consectetur adipisicing elit. Minus ipsa magnam, tempora similique hic esse nihil
+                     totam corporis fugit voluptatum eum vero ratione consequuntur, 
+                    cum mollitia laborum maxime error nemo.</p>
+                </div>
+
+            </div>
+
+
+            <!-- sidesection -->
+
+
+            <div class="_2nddiv">
+                <div class="myaccount" style="display: flex; margin-bottom: 20px;">
+                    <img src="image.png" style="width: 60px; height: 60px; border-radius: 50%; margin-top: 10px; margin-left: 25px;" alt="">
+                    <div class="myaccount-details" style="margin-top: 20px; margin-left: -30px;">
+                        <h5>V3nomi4us</h5>
+                        <h4 style="color: rgb(124, 120, 120) ;">BRIAN OTIENO</h4>
+                    </div>
+
+                <div class="switch" style="color: rgb(1, 139, 252); cursor: pointer;"><h5>switch</h5></div>
+                   
+                </div>
+
+                    <h6 style="margin-left: 25px; color:rgb(124, 120, 120)  ;">Suggestions For You</h6>
+
+                <div class="myaccount" style="display: flex;">
+                    <img src="html.jpg" style="width: 40px; height: 40px; border-radius: 50%; margin-top: 10px; margin-left: 25px;" alt="">
+                    <div class="myaccount-details" style="margin-top: 20px; margin-left: -30px;">
+                        <h5>htmlcoding_</h5>
+                        <h6 style="color: rgb(124, 120, 120) ; ">htmlcoding_345</h6>
+                    </div>
+
+                <div class="switch" style="color: rgb(1, 139, 252); cursor: pointer;"><h5>Folllow</h5></div>
+                   
+                </div>
+
+                <div class="myaccount" style="display: flex;">
+                    <img src="python.jpg" style="width: 40px; height: 40px; border-radius: 50%; margin-top: 10px; margin-left: 25px;" alt="">
+                    <div class="myaccount-details" style="margin-top: 20px; margin-left: -30px;">
+                        <h5>python2.0</h5>
+                        <h6 style="color: rgb(124, 120, 120) ; ">Popular</h6>
+                    </div>
+
+                <div class="switch" style="color: rgb(1, 139, 252); cursor: pointer;"><h5>Folllow</h5></div>
+                   
+                </div>
+                <div class="myaccount" style="display: flex;">
+                    <img src="program.jpg" style="width: 40px; height: 40px; border-radius: 50%; margin-top: 10px; margin-left: 25px;" alt="">
+                    <div class="myaccount-details" style="margin-top: 20px; margin-left: -30px;">
+                        <h5>program..</h5>
+                        <h6 style="color: rgb(124, 120, 120) ; ">Popular</h6>
+                    </div>
+
+                <div class="switch" style="color: rgb(1, 139, 252); cursor: pointer;"><h5>Folllow</h5></div>
+                   
+                </div>
+                <div class="myaccount" style="display: flex;">
+                    <img src="developer.jpg" style="width: 40px; height: 40px; border-radius: 50%; margin-top: 10px; margin-left: 25px;" alt="">
+                    <div class="myaccount-details" style="margin-top: 20px; margin-left: -30px;">
+                        <h5>develope.</h5>
+                        <h6 style="color: rgb(124, 120, 120) ; ">Popular</h6>
+                    </div>
+
+                <div class="switch" style="color: rgb(1, 139, 252); cursor: pointer;"><h5>Folllow</h5></div>
+                   
+                </div>
+                <div class="myaccount" style="display: flex;">
+                    <img src="develop.jpg" style="width: 40px; height: 40px; border-radius: 50%; margin-top: 10px; margin-left: 25px;" alt="">
+                    <div class="myaccount-details" style="margin-top: 20px; margin-left: -30px;">
+                        <h5>developers.</h5>
+                        <h6 style="color: rgb(124, 120, 120) ; ">Popular</h6>
+                    </div>
+
+                <div class="switch" style="color: rgb(1, 139, 252); cursor: pointer;"><h5>Folllow</h5></div>
+                   
+                </div>
+                <div class="myaccount" style="display: flex;">
+                    <img src="heleny.jpg" style="width: 40px; height: 40px; border-radius: 50%; margin-top: 10px; margin-left: 25px;" alt="">
+                    <div class="myaccount-details" style="margin-top: 20px; margin-left: -30px;">
+                        <h5>helenyarmak</h5>
+                        <h6 style="color: rgb(124, 120, 120) ; ">Popular</h6>
+                    </div>
+
+                <div class="switch" style="color: rgb(1, 139, 252); cursor: pointer;"><h5>Folllow</h5></div>
+                   
+                </div>
+                <div class="myaccount" style="display: flex;">
+                    <img src="hackers.jpg" style="width: 40px; height: 40px; border-radius: 50%; margin-top: 10px; margin-left: 25px;" alt="">
+                    <div class="myaccount-details" style="margin-top: 20px; margin-left: -30px;">
+                        <h5>hackers254</h5>
+                        <h6 style="color: rgb(124, 120, 120) ; ">Popular</h6>
+                    </div>
+
+                <div class="switch" style="color: rgb(1, 139, 252); cursor: pointer;"><h5>Folllow</h5></div>
+                   
+                </div>
+                
+            </div>
+            
+        </div>
+
+    </div>
+
+</body>
+</html>
